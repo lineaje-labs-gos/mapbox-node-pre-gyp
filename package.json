@@ -1,7 +1,7 @@
 {
   "name": "node-pre-gyp",
   "description": "Node.js native addon binary install tool",
-  "version": "0.11.0",
+  "version": "0.11.0-lineaje-01",
   "keywords": [
     "native",
     "addon",
@@ -12,10 +12,16 @@
     "binary"
   ],
   "license": "BSD-3-Clause",
+  "contributors": [
+    {
+      "name": "Lineaje DepFixer",
+      "email": "221268890+Lineaje-DepFixer@users.noreply.github.com"
+    }
+  ],
   "author": "Dane Springmeyer <dane@mapbox.com>",
   "repository": {
     "type": "git",
-    "url": "git://github.com/mapbox/node-pre-gyp.git"
+    "url": "https://github.com/lineaje-labs-gos/mapbox-node-pre-gyp"
   },
   "bin": "./bin/node-pre-gyp",
   "main": "./lib/node-pre-gyp.js",
